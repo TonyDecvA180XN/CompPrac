@@ -1,0 +1,9 @@
+C:\dev\ComputationalPracticum\ComputationalPracticum\bin\Release\ComputationalPracticum.exe.config
+C:\dev\ComputationalPracticum\ComputationalPracticum\bin\Release\ComputationalPracticum.exe
+C:\dev\ComputationalPracticum\ComputationalPracticum\bin\Release\ComputationalPracticum.pdb
+C:\dev\ComputationalPracticum\ComputationalPracticum\obj\Release\ComputationalPracticum.MainFrame.resources
+C:\dev\ComputationalPracticum\ComputationalPracticum\obj\Release\ComputationalPracticum.Properties.Resources.resources
+C:\dev\ComputationalPracticum\ComputationalPracticum\obj\Release\ComputationalPracticum.csproj.GenerateResource.cache
+C:\dev\ComputationalPracticum\ComputationalPracticum\obj\Release\ComputationalPracticum.csproj.CoreCompileInputs.cache
+C:\dev\ComputationalPracticum\ComputationalPracticum\obj\Release\ComputationalPracticum.exe
+C:\dev\ComputationalPracticum\ComputationalPracticum\obj\Release\ComputationalPracticum.pdb

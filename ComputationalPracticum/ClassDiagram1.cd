@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComputationalPracticum.Error">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <AssociationLine Name="m_method" Type="ComputationalPracticum.FunctionView" FixedToPoint="true">
+      <Path>
+        <Point X="1.375" Y="5.75" />
+        <Point X="1.375" Y="4.555" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.868" Y="0.498" Height="0.182" Width="1.2" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="m_exactSolution" Type="ComputationalPracticum.FunctionView">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.559" Y="0.413" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABQAAAAACAAAIAABAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Error.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_method" />
+      <Field Name="m_exactSolution" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ComputationalPracticum.MainFrame" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ObAAB1CRUGeGFRNAIA2SAKjSCcAQSwICEDsEBQFghCM=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="GE" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Errors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ComputationalPracticum.FunctionView">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAgCAAACAAAAEQAAAAQAQIAIAAAAAAAA=</HashCode>
+      <FileName>FunctionView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.GlobalError">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>GlobalError.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_errors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ComputationalPracticum.Program" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.EulerMethod">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Solutions\EulerMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.EulerMethodImproved">
+    <Position X="5.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Solutions\EulerMethodImproved.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.Exact">
+    <Position X="5.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Solutions\Exact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.RungeKutta">
+    <Position X="2.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Solutions\RungeKutta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.Properties.Resources" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationalPracticum.Properties.Settings" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ComputationalPracticum.BorderRegion" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>FunctionView.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
